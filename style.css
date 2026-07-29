@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "Nova Zelandia";
+    src: url(./font/PlaywriteNZ-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Nova Zelandia;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     text-align: center;
     scroll-behavior: smooth;
 }
